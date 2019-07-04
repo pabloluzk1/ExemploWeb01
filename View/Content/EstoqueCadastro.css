@@ -1,0 +1,57 @@
+﻿body {
+    font-family:Verdana;
+    margin:0px;
+   
+}
+#Lista-estoque {
+    text-align:center;
+
+}
+.div-campo {
+    width:95%;
+    margin-left:2.5%;
+    margin-bottom:5px;
+}
+.campo {
+    width:100%;
+    border-style:solid;
+    border-color:#a1a1a1;
+    padding-left:8px;
+    padding-top:8px;
+    padding-right:8px;
+    padding-right:8px;
+    padding-bottom:8px;
+    border-radius:4px;
+}
+.botao {
+    border-radius:4px;
+    background-color:#28a745;
+    color:white;
+    padding:8px;
+    float:right;
+    cursor:pointer;
+    border-style:solid;
+    border-color:#28a745;
+    margin-right:2%;
+}
+.botao:hover {
+    background-color:white;
+    color:#28a745;
+    border-color#28a745
+}
+.div-titulo {
+    background-color:black;
+    height:40px;
+    margin-bottom:20px;
+
+}
+.titulo {
+    color:white;
+    text-decoration:none;
+    height:100%;
+    display:inline-block;
+    padding:10px;
+
+}
+
+

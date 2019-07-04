@@ -1,0 +1,55 @@
+﻿body {
+    font-family: 'Montserrat', sans-serif;
+}
+table {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right:2.79%;
+}
+/* Coluna do cabeçalho e rodapé */
+th {
+    background-color: #19d1d1;
+}
+/* Cada linha terá 30px de altura */
+tr {
+    height: 30px;
+}
+
+tr, th {
+    border: 1px solid black;
+    /*
+        border-top-color: red;
+        border-bottom-color: deeppink;
+        border-left-color: darkblue;
+        border-right-color: chartreuse;
+
+        border-top-style: dashed;
+        border-bottom-style: dotted;
+        border-left-style: groove;
+        border-right-style: solid;
+    */
+}
+/* Quando usuário passar o 
+    mouse na linha muda a cor*/
+tr:nth-child(even){
+    background-color:#bbb4b4;
+}
+tr:hover {
+    background-color: #ddd;
+}
+#botao-cadastro {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-right:81.79%;
+    margin-bottom:10px;
+
+
+
+}
+
